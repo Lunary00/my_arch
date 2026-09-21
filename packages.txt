@@ -1,0 +1,140 @@
+# =============================================================================
+# packages.txt — lista de pacotes por categoria.
+#
+# Uso:  sudo pacman -S --needed - < <(grep -vE '^\s*(#|$)' packages.txt)
+#   (ou use como referência para o bootstrap.sh / instalação manual)
+# Pacotes AUR estão no bloco final (instale com yay/paru).
+# =============================================================================
+
+# ===== Base / sistema =====
+base
+base-devel
+linux
+linux-firmware
+linux-headers
+btrfs-progs
+snapper
+snap-pac
+grub-btrfs
+grub
+efibootmgr
+os-prober
+networkmanager
+sudo
+vim
+git
+zram-generator
+
+# ===== Microcódigo (escolha UMA linha) =====
+intel-ucode
+# amd-ucode
+
+# ===== GPU — escolha UM bloco =====
+# NOTA: o pacote 'mesa' já provê 'libva-mesa-driver'.
+# 'libva-mesa-driver' e 'mesa-vdpau' NÃO existem mais como pacotes separados.
+# -- Intel --
+# mesa
+# vulkan-icd-loader
+# vulkan-intel
+# intel-media-driver
+# -- AMD --
+# mesa
+# vulkan-icd-loader
+# vulkan-radeon
+# -- NVIDIA --
+# mesa
+# vulkan-icd-loader
+# nvidia-open
+# nvidia-utils
+# nvidia-settings
+
+# ===== Áudio / Bluetooth =====
+pipewire
+wireplumber
+pipewire-pulse
+pipewire-alsa
+pipewire-jack
+bluez
+bluez-utils
+blueman
+
+# ===== Hyprland / Wayland =====
+hyprland
+hyprpaper
+hypridle
+hyprlock
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+polkit-kde-agent
+waybar
+rofi
+dunst
+mako
+grim
+slurp
+wl-clipboard
+qt5-wayland
+qt6-wayland
+sddm
+
+# ===== Terminal / Shell =====
+kitty
+ghostty
+starship
+zsh
+zsh-completions
+zsh-autosuggestions
+zsh-syntax-highlighting
+
+# ===== Neovim =====
+neovim
+ripgrep
+fd
+git
+lazygit
+tree-sitter
+luarocks
+lua51
+unzip
+# LSP (ou instale via Mason dentro do nvim):
+# gopls
+# rust-analyzer
+# pyright
+# clang
+# typescript-language-server
+
+# ===== Fontes / Temas / Ícones =====
+ttf-jetbrains-mono-nerd
+ttf-firacode-nerd
+noto-fonts
+noto-fonts-emoji
+papirus-icon-theme
+breeze-icons
+
+# ===== Utilidades =====
+htop
+btop
+fastfetch
+man-db
+man-pages
+reflector
+pacman-contrib
+spice-vdagent
+
+# ===== Virtualização (host) =====
+qemu-desktop
+libvirt
+virt-manager
+edk2-ovmf
+dnsmasq
+iptables
+virt-viewer
+
+# =============================================================================
+# ===== AUR (instale com yay/paru, NÃO com pacman) =====
+# yay -S --needed - < <(grep -vE '^\s*(#|$)' aur-packages.txt)
+# =============================================================================
+# bibata-cursor-theme
+# zsh-theme-powerlevel10k-git
+# neovim-git            # necessário se o nvim oficial estiver < 0.12
+# visual-studio-code-bin

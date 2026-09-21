@@ -1,0 +1,6 @@
+android-studio
+displaylink
+evdi-dkms
+lib32-libvdpau
+linux-wifi-hotspot
+yay

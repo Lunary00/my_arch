@@ -1,0 +1,56 @@
+# ===== Secrets (NUNCA versionar) =====
+# config do archinstall pode conter senha em texto plano
+user_configuration.json
+user_credentials.json
+credentials.json
+*.credentials.json
+
+# chaves privadas e cofres
+*.key
+*.pem
+id_rsa
+id_ed25519
+*.gpg
+.age
+!*.age.example
+
+# arquivos criptografados de exemplo (mantenha modelos, ignore segredos reais)
+.secrets/
+pass/
+.sops.yaml
+
+# ===== Imagens de VM e ISOs (pesadas/regeneráveis) =====
+*.qcow2
+*.img
+*.raw
+*.vdi
+*.vmdk
+*.iso
+vms/
+
+# ===== Backups locais =====
+*.backup
+backup/
+/backup/
+arch-*.tar*
+
+# ===== Editor / SO / IDE =====
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.bak
+
+# ===== Logs / caches =====
+*.log
+nvim.log
+__pycache__/
+*.pyc
+node_modules/
+
+# ===== Diretórios gerados em runtime =====
+/tmp/
+/cache/
