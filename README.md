@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Arch + Btrfs + Hyprland — projeto de migração e instalação reproduzível
 
 Processo limpo e reproduzível para instalar o **Arch Linux** com **Btrfs** (subvolumes,
@@ -66,3 +67,7 @@ Fase 5  Dotfiles portáteis + imagem reproduzível
 - Disco externo (≥ 400 GB, ext4) para o backup da Fase 0.
 - Rede ativa durante a instalação.
 - No host de virtualização: `qemu-desktop libvirt virt-manager edk2-ovmf`.
+=======
+# my_arch
+My arch linux guide
+>>>>>>> 016229d6b8d15c730cc34d24b4cca700ecea95b2
