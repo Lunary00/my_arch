@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "installed": {
+    "m365-mailbox": {
+      "source": "clawhub",
+      "identifier": "@tradmangh/m365-mailbox",
+      "trust_level": "community",
+      "scan_verdict": "safe",
+      "content_hash": "sha256:ece13b1b9607e868",
+      "install_path": "m365-mailbox",
+      "files": [
+        "package-lock.json",
+        "package.json",
+        "scripts/_graph.mjs",
+        "scripts/_lib.mjs",
+        "scripts/_policy.mjs",
+        "scripts/create-draft.mjs",
+        "scripts/get-message.mjs",
+        "scripts/list-unread.mjs",
+        "scripts/search.mjs",
+        "scripts/send-draft.mjs",
+        "scripts/setup.mjs",
+        "skill-card.md",
+        "SKILL.md",
+        "_meta.json"
+      ],
+      "metadata": {},
+      "scan_provenance": {
+        "bundle_hash": "sha256:ece13b1b9607e8682fccc5f56fcecb25d9fe168e171ecbc940581df6f0159040",
+        "scanner_version": "skills-guard-v2",
+        "source": "@tradmangh/m365-mailbox",
+        "source_url": "@tradmangh/m365-mailbox",
+        "verdict": "safe",
+        "trust_level": "community",
+        "findings": [],
+        "rules": [],
+        "scanned_at": "2026-09-15T10:39:17.357409+00:00",
+        "summary": "m365-mailbox: clean scan, no threats detected",
+        "fresh": false
+      },
+      "installed_at": "2026-09-15T10:39:28.259905+00:00",
+      "updated_at": "2026-09-15T10:39:28.259905+00:00"
+    }
+  }
+}

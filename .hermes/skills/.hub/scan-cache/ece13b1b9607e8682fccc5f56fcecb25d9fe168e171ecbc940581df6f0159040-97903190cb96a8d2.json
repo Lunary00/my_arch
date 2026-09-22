@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:ece13b1b9607e8682fccc5f56fcecb25d9fe168e171ecbc940581df6f0159040",
+  "scanner_version": "skills-guard-v2",
+  "source": "@tradmangh/m365-mailbox",
+  "source_url": "@tradmangh/m365-mailbox",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-15T10:39:17.357409+00:00",
+  "summary": "m365-mailbox: clean scan, no threats detected",
+  "fresh": true
+}

@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/home/mateus/.hermes/logs/curator/20260918-120829",
+  "last_run_at": "2026-09-18T12:08:29.631792+00:00",
+  "last_run_duration_seconds": 2.072275,
+  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 1
+}

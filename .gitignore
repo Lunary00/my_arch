@@ -44,6 +44,20 @@ Thumbs.db
 .vscode/
 *.bak
 
+
+## config
+.config/*
+!.config/autostart/
+!.config/btop/
+!.config/hypr/
+!.config/kitty/
+!.config/nvim/
+!.config/obsidian/
+!.config/opencode/
+!.config/ruffle/
+!.config/yazi/
+.config/nvim/neovim-conf/
+
 # ===== Logs / caches =====
 *.log
 nvim.log
